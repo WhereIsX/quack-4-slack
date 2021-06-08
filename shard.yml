@@ -1,0 +1,17 @@
+name: quack
+version: 0.1.0
+
+authors:
+  - YANA <30638175+WhereIsX@users.noreply.github.com>
+
+targets:
+  quack:
+    main: src/quack.cr
+
+crystal: 1.0.0
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+
+license: MIT
